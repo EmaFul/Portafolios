@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="estilos.css">
+	<script src="js/all.min.js "></script>
+	<title>Portafolio</title>
+</head>
+<body>
+	<div class="contenedor">
+		<div class="contenedor-conciertos">
+			<div class="card" style="background-image: url('./img/1.jpg')">
+				<div class="textos">
+					<h3 id="CV">Curriculum Vitae</h3>
+					<a href="./Documentos/Cv.pdf" download="Cv" class="boton" id="BotonT">Descargar PDF</a>
+				</div>
+			</div>
+			<div class="card" style="background-image: url('./img/2.jpg')">
+				<div class="textos">
+					<h3>Proyectos</h3>
+					<p>Proximamente</p>
+				</div>
+			</div>
+			<div class="card" style="background-image: url('./img/3.jpg')">
+				<div class="textos">
+					<h3>Sobre mi</h3>
+					<p>Mi nombre es Emanuel Parini, soy desarrolador web.Me considero muy buen colaborador y trabajando en equipo, estoy buscando un trabajo fulltime como desarrollador web, un lugar donde pueda aplicar mis conocimientos y habilidades para seguir mejorando.</p>
+					
+				</div>
+			</div>
+
+			<div class="card" style="background-image: url('./img/4.jpg')">
+				<div class="textos">
+					<h3 id="CV"> Habilidades</h3>
+					<button id="BotonT" class="boton">Mas.. </button>
+				</div>
+			</div>
+			<div class="card" style="background-image: url('./img/5.jpg')">
+				<div class="textos">
+					<a id="Insta" href="https://www.instagram.com/deft.oficial/?hl=es-la"><i class="fab fa-instagram" ></i></a> 
+					
+				</div>
+			</div>
+			<div class="card" style="background-image: url('./img/6.jpg')">
+				<div class="textos">
+					<h3><i class="fas fa-user-circle"></i> Parini Emanuel  </h3>
+					<p><i class="fas fa-heartbeat"></i> 24 años</p>
+					<p><i class="fas fa-home"></i> Argentina - Buenos Aires</p>
+					<p><i class="fas fa-envelope"></i> emap@gmail.com</p>
+					<p><i class="fas fa-mobile"></i> +54 9 1 64861797</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="banner" style="background-image: url('./img/banner.jpg')">
+			<h3></h3>
+			<ul>
+				<form action="">
+					<label for="nombre">
+						<span>¿Cuál es tu nombre?</span>
+						<input type="text" name="nombre" id="nombre" autocomplete="name" required>
+					</label>
+					<label for="correo">
+						<span>¿Cuál es tu correo?</span>
+						<input type="email" name="correo" id="correo" autocomplete="email" required>
+					</label>
+					<label for="pais">
+						<span>¿En cuál país vives?</span>
+						<input type="text" name="pais" id="pais" autocomplete="country" required>
+					</label>
+					<label for="cp">
+						<span>¿Cuál es tu código postal?</span>
+						<input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+					</label>
+					<p>MENSAJE</p>
+					<textarea name="field" cols="25" rows="7"></textarea>
+					
+				</form>
+			</ul>
+			<button class="boton" ><input type="submit" class="boton"></button>
+		</div>
+	</div>
+</body>
+</html>
